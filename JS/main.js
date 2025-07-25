@@ -85,6 +85,7 @@ function renderTasks() {
     });
 }
 
+// Filter the tasks by status and date
 function filterTasks() {
     const statusFilter = document.getElementById('filter-status').value;
     const dateFilter = document.getElementById('filter-date').value;
