@@ -1,0 +1,50 @@
+body {
+    background-color: #eff0fc; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+}
+main {
+    justify-self: center; 
+    width: 70%; 
+    height: 100vh; 
+    align-content: center;
+}
+
+form {
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: rgb(198, 188, 221); 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+form.outline-2 {
+    outline: 2px solid rgb(24, 40, 179);
+    outline-offset: 4px;
+}
+
+input[type="text"] {
+    justify-items: anchor-center;
+}
+
+#todo-list {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.author-text {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 100;
+  /* Let Daisy UI control the text color through themes */
+  opacity: 0.8;
+}
